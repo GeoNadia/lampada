@@ -7,20 +7,20 @@ function isLampBroken(){
 }
 function lampOn(){
     if(!isLampBroken()){
-        lamp.src = './fotos/ligada.jpg'
+        lamp.src = 'ligada.jpg'
     }
 
 }
 
 function lampOff(){
     if(!isLampBroken()){
-        lamp.src = './fotos/desligada.jpg'
+        lamp.src = 'desligada.jpg'
     }
 }
 
 function lampBroken(){
     if(!isLampBroken()){
-        lamp.src = './fotos/quebrada.jpg'
+        lamp.src = 'quebrada.jpg'
     }
 
 }
